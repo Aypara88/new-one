@@ -8,6 +8,10 @@ const SP_WIDTH = 390;
 const SP_HEIGHT = 24573;
 
 const BUTTON_STYLES = `
+  p[class*="Impact"] {
+    white-space: nowrap;
+  }
+
   div[class*="bg-[#d96c8a]"][class*="rounded"] {
     cursor: pointer;
     transition: filter 0.1s ease, transform 0.1s ease;
