@@ -619,7 +619,7 @@ function Component20() {
       <div className="[word-break:break-word] absolute font-['Noto_Sans_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-normal leading-[0] left-[calc(50%-243px)] text-[#333] text-[0px] top-[2473px] tracking-[1.8px] w-[687px] whitespace-pre-wrap">
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">{`「彼は本当に独身なのか」 `}</p>
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">「このまま交際を続けて大丈夫なのか不安」</p>
-        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持てずに一人で悩んでいる方は少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持て���に一人で悩んでいる方は少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[1.4] mb-0 text-[18px]">{` `}</p>
         <p className="font-['Noto_Serif_JP:Bold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-bold mb-0 text-[22px]">
           <span className="leading-[32px] text-[#333]">もし相手が</span>
@@ -1610,7 +1610,7 @@ function Group19() {
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       自分の考えすぎなのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       このまま交際を続けていいのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
-        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大きくなってしまう方も少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大きく��ってしまう方も少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`また、相手を問い詰めても本当のことを話してもらえるとは限りません。 `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">弁護士に相談することで、現在の状況を法的な観点から整理し、</p>
@@ -1698,7 +1698,7 @@ function Component44() {
   return (
     <div className="absolute contents left-[144px] top-[11683.1px]" data-name="サポート">
       <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_JP:Medium','Noto_Sans:Medium',sans-serif] font-medium leading-[0] left-[561.5px] text-[#333] text-[18px] text-center top-[11770px] tracking-[1.8px] whitespace-nowrap">
-        <p className="leading-[2] mb-0 whitespace-pre">{`独身偽装の問題は、一人で答えを探し続けるほど不安が大きくなってしまうことがあります。 `}</p>
+        <p className="leading-[2] mb-0 whitespace-pre">{`独身偽装の問題は、一人で答えを探し続けるほど���安が大きくなってしまうことがあります。 `}</p>
         <p className="leading-[2] mb-0 whitespace-pre">{`大切なのは、思い込みで判断することではなく、事実を整理し、正しい情報を知ることです。 `}</p>
         <p className="whitespace-pre">
           <span className="leading-[2]">私たちは、</span>
@@ -1736,8 +1736,9 @@ function Component43() {
   return (
     <div className="absolute contents left-[81px] top-[10583px]" data-name="法的根拠３">
       <H1 />
-      <Component10 />
-      <div className="absolute h-[416px] left-[512px] top-[10729px] w-[435px]" data-name="2">
+      <div className="absolute flex gap-8 left-[81px] top-[10730px] w-full flex-wrap">
+        <Component10 />
+        <div className="h-[416px] w-[435px]" data-name="2">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">02</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
@@ -1772,7 +1773,7 @@ function Component43() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle168} />
         </div>
       </div>
-      <div className="absolute h-[416px] left-[947px] top-[10730px] w-[435px]" data-name="3">
+      <div className="h-[416px] w-[435px]" data-name="3">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">03</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
@@ -1806,7 +1807,7 @@ function Component43() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle169} />
         </div>
       </div>
-      <div className="absolute h-[416px] left-[81px] top-[11162px] w-[435px]" data-name="4">
+      <div className="h-[416px] w-[435px]" data-name="4">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">04</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
@@ -1841,7 +1842,7 @@ function Component43() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle115} />
         </div>
       </div>
-      <div className="absolute h-[416px] left-[512px] top-[11160px] w-[435px]" data-name="5">
+      <div className="h-[416px] w-[435px]" data-name="5">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">05</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
@@ -1876,7 +1877,7 @@ function Component43() {
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle112} />
         </div>
       </div>
-      <div className="absolute h-[416px] left-[947px] top-[11160px] w-[435px]" data-name="6">
+      <div className="h-[416px] w-[435px]" data-name="6">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">06</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
@@ -2266,7 +2267,7 @@ function Component49() {
           <span className="[word-break:break-word] font-['Noto_Serif_JP:Medium','Noto_Sans:Medium',sans-serif] font-medium leading-[28px] text-[#d96c8a]">、独身偽装や貞操権侵害、不倫・慰謝料請求など</span>
           <span className="leading-[28px]">の</span>
         </p>
-        <p className="leading-[28px] mb-0 text-[18px] whitespace-pre">{`男女間トラブルに関するご相談を数多くお受けしてきました。 `}</p>
+        <p className="leading-[28px] mb-0 text-[18px] whitespace-pre">{`男女間トラブルに関するご相談を数多くお受けして��ました。 `}</p>
         <p className="leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
         <p className="leading-[28px] mb-0 text-[18px] whitespace-pre">独身偽装の問題は、交際の経緯や相手の言動、証拠の有無などによって取るべき対応が大きく異なります。</p>
         <p className="leading-[28px] mb-0 text-[18px] whitespace-pre">{`状況を丁寧に整理しながら、法的な観点から最適な解決策をご提案いたします。 `}</p>
@@ -2712,7 +2713,7 @@ function Component59() {
         </p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">考えられる選択肢と今後の進め方（調査の要否、交渉・請求の方針等）を</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">わかりやすくご説明します。</p>
-        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">一歩踏み出すことで、トラブルは確実に前進します。</p>
+        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">一歩踏み出すこ���で、トラブルは確実に前進します。</p>
         <p className="text-[20px] whitespace-pre">
           <span className="leading-[30px]">まずは</span>
           <span className="leading-[30px] text-[#d96c8a]">”話すこと”</span>
@@ -2823,7 +2824,7 @@ function Component61() {
           <span className="leading-[30px] text-[#d96c8a]">条件</span>
         </p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">（例：彼の妻から慰謝料を請求された場合の対応方法など）</p>
-        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">といった重要事項を明確に記載します。</p>
+        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">といった重要事項を明確に記載し���す。</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">​</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">適切な契約書を交わすことで、再度トラブル巻き込まれる不安を解消し、</p>
         <p className="mb-0 text-[20px] whitespace-pre">
