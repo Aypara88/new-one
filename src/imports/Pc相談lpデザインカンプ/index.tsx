@@ -619,7 +619,7 @@ function Component20() {
       <div className="[word-break:break-word] absolute font-['Noto_Sans_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-normal leading-[0] left-[calc(50%-243px)] text-[#333] text-[0px] top-[2473px] tracking-[1.8px] w-[687px] whitespace-pre-wrap">
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">{`「彼は本当に独身なのか」 `}</p>
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">「このまま交際を続けて大丈夫なのか不安」</p>
-        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持てずに一人で悩んでいる方は少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持て���に一人で悩んでいる方は少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[1.4] mb-0 text-[18px]">{` `}</p>
         <p className="font-['Noto_Serif_JP:Bold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-bold mb-0 text-[22px]">
           <span className="leading-[32px] text-[#333]">もし相手が</span>
@@ -1610,7 +1610,7 @@ function Group19() {
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       自分の考えすぎなのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       このまま交際を続けていいのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
-        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大きくなってしまう方も少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大きく��ってしまう方も少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`また、相手を問い詰めても本当のことを話してもらえるとは限りません。 `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">弁護士に相談することで、現在の状況を法的な観点から整理し、</p>
@@ -2631,7 +2631,7 @@ function H7() {
   return (
     <div className="absolute contents left-[40px] top-[15848px]" data-name="H1">
       <div className="absolute bg-[#d96c8a] h-[100px] left-[40px] top-[15848px] w-[1360px]" />
-      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_JP:Black',sans-serif] font-black h-[35px] leading-none left-[calc(50%+0.5px)] text-[36px] text-center text-white top-[15882px] tracking-[3.6px] w-[277px]">サービスの流れ</p>
+      <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_JP:Black',sans-serif] font-black h-[35px] leading-none left-[calc(50%+0.5px)] text-[34px] text-center text-white top-[15882px] tracking-[3.6px] w-[277px]">サービスの流れ</p>
     </div>
   );
 }
@@ -2712,7 +2712,7 @@ function Component59() {
         </p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">考えられる選択肢と今後の進め方（調査の要否、交渉・請求の方針等）を</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">わかりやすくご説明します。</p>
-        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">一歩踏み出すことで、トラブルは確実に前進します。</p>
+        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">一歩踏み出すこ���で、トラブルは確実に前進します。</p>
         <p className="text-[20px] whitespace-pre">
           <span className="leading-[30px]">まずは</span>
           <span className="leading-[30px] text-[#d96c8a]">”話すこと”</span>
@@ -2823,7 +2823,7 @@ function Component61() {
           <span className="leading-[30px] text-[#d96c8a]">条件</span>
         </p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">（例：彼の妻から慰謝料を請求された場合の対応方法など）</p>
-        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">といった重要事項を明確に記載します。</p>
+        <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">といった重要事項を明確に記載し���す。</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">​</p>
         <p className="leading-[30px] mb-0 text-[20px] whitespace-pre">適切な契約書を交わすことで、再度トラブル巻き込まれる不安を解消し、</p>
         <p className="mb-0 text-[20px] whitespace-pre">
