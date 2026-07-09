@@ -619,7 +619,7 @@ function Component20() {
       <div className="[word-break:break-word] absolute font-['Noto_Sans_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-normal leading-[0] left-[calc(50%-243px)] text-[#333] text-[0px] top-[2473px] tracking-[1.8px] w-[687px] whitespace-pre-wrap">
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">{`「彼は本当に独身なのか」 `}</p>
         <p className="font-['Noto_Serif_JP:SemiBold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-semibold leading-[28px] mb-0 text-[18px]">「このまま交際を続けて大丈夫なのか不安」</p>
-        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持て�����に一人で悩んでいる方は少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[28px] mb-0 text-[18px]">{`そう感じても、確信が持て���に一人で悩んでいる方は少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] leading-[1.4] mb-0 text-[18px]">{` `}</p>
         <p className="font-['Noto_Serif_JP:Bold','Noto_Sans:Regular','Noto_Sans:SemiBold',sans-serif] font-bold mb-0 text-[22px]">
           <span className="leading-[32px] text-[#333]">もし相手が</span>
@@ -1610,7 +1610,7 @@ function Group19() {
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       自分の考えすぎなのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Black','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-black leading-[42px] mb-0 text-[22px] whitespace-pre">{`       このまま交際を続けていいのか。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
-        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大��く��ってしまう方も少なくありません。 `}</p>
+        <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`一人で考え続けても答えが出ず、不安だけが大きく��ってしまう方も少なくありません。 `}</p>
         <p className="font-['Noto_Serif_JP:Regular','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] leading-[28px] mb-0 text-[18px] whitespace-pre">{` `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">{`また、相手を問い詰めても本当のことを話してもらえるとは限りません。 `}</p>
         <p className="font-['Noto_Serif_JP:Medium','Noto_Sans:Black','Noto_Sans:Medium','Noto_Sans:Regular',sans-serif] font-medium leading-[30px] mb-0 text-[20px] whitespace-pre">弁護士に相談することで、現在の状況を法的な観点から整理し、</p>
@@ -1698,7 +1698,7 @@ function Component44() {
   return (
     <div className="absolute contents left-[144px] top-[11683.1px]" data-name="サポート">
       <div className="-translate-x-1/2 [word-break:break-word] absolute font-['Noto_Serif_JP:Medium','Noto_Sans:Medium',sans-serif] font-medium leading-[0] left-[561.5px] text-[#333] text-[18px] text-center top-[11770px] tracking-[1.8px] whitespace-nowrap">
-        <p className="leading-[2] mb-0 whitespace-pre">{`独身偽装の問題は、一人で答えを探し続け���ほど���安が大きくなってしまうことがあります。 `}</p>
+        <p className="leading-[2] mb-0 whitespace-pre">{`独身偽装の問題は、一人で答えを探し続けるほど���安が大きくなってしまうことがあります。 `}</p>
         <p className="leading-[2] mb-0 whitespace-pre">{`大切なのは、思い込みで判断することではなく、事実を整理し、正しい情報を知ることです。 `}</p>
         <p className="whitespace-pre">
           <span className="leading-[2]">私たちは、</span>
@@ -1736,8 +1736,44 @@ function Component43() {
   return (
     <div className="absolute contents left-[81px] top-[10583px]" data-name="法的根拠３">
       <H1 />
-      <Component10 />
-      <div className="absolute h-[416px] left-[512px] top-[10730px] w-[435px]" data-name="2">
+      <div className="absolute flex gap-8 left-[81px] top-[10730px] w-full flex-wrap">
+        <Component10 />
+        <div className="h-[416px] w-[435px]" data-name="2">
+        <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">02</p>
+        <div className="absolute inset-[0_4.6%_0.24%_0]">
+          <div className="absolute inset-[0_-1.93%_-1.93%_0]">
+            <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 423 423">
+              <g filter="url(#filter0_d_1_1501)" id="Ellipse 53">
+                <circle cx="207.5" cy="207.5" fill="var(--fill-0, #FFF4F7)" r="207.5" />
+              </g>
+              <defs>
+                <filter colorInterpolationFilters="sRGB" filterUnits="userSpaceOnUse" height="423" id="filter0_d_1_1501" width="423" x="0" y="0">
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" result="hardAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                  <feOffset dx="4" dy="4" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend in2="BackgroundImageFix" mode="normal" result="effect1_dropShadow_1_1501" />
+                  <feBlend in="SourceGraphic" in2="effect1_dropShadow_1_1501" mode="normal" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute font-['Noto_Serif_JP:Bold','Noto_Sans:Black',sans-serif] font-bold inset-[48.56%_31.49%_24.04%_26.44%] leading-[0] text-[#24324a] text-[24px] text-center tracking-[2.4px] whitespace-nowrap">
+          <p className="font-['Noto_Serif_JP:Black',sans-serif] font-black mb-0">
+            <span className="leading-[1.6] text-[#d96c8a]">独身偽装</span>
+            <span className="leading-[1.6]">に</span>
+          </p>
+          <p className="font-['Noto_Serif_JP:Black',sans-serif] font-black leading-[1.6] mb-0">該当する可能性を</p>
+          <p className="font-['Noto_Serif_JP:Black',sans-serif] font-black leading-[1.6]">確認できる</p>
+        </div>
+        <div className="absolute aspect-[80/80] left-[38.39%] right-[43.22%] top-[103px]">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgRectangle168} />
+        </div>
+      </div>
+      <div className="h-[416px] w-[435px]" data-name="3">
         <p className="[word-break:break-word] absolute font-['Impact:Regular',sans-serif] inset-[79.81%_0_0_78.39%] leading-none not-italic text-[#f7e7eb] text-[80px] text-shadow-[2px_2px_4px_rgba(217,108,138,0.8)] tracking-[4px]">03</p>
         <div className="absolute inset-[0_4.6%_0.24%_0]">
           <div className="absolute inset-[0_-1.93%_-1.93%_0]">
